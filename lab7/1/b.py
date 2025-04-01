@@ -1,3 +1,3 @@
 num = int(input())
-print(f"The next numb after {num} is {num+1}")
-print("Next numb after " + str(num) + " is " + str(num+1))
+print(f"The next number for the number {num} is {num+1}.")
+print("The previous number for the number " + str(num) + " is " + str(num-1) + ".")
