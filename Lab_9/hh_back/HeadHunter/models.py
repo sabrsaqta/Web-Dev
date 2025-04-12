@@ -15,7 +15,7 @@ class Vacancy(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     salary = models.FloatField()
-    company = models.ForeignKey(Company, related_name='vacancy', on_delete=models.CASCADE)
+    company = models.ForeignKey(Company, related_name='vacancies', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
